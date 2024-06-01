@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("scanner-fake-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a8c5fa3476d0a2a3056223d51aad9bef7d3b93")]
 [assembly: System.Reflection.AssemblyProductAttribute("scanner-fake-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("scanner-fake-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
