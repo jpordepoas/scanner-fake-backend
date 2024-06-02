@@ -13,6 +13,12 @@ public static class CustomBootstrap
 
         builder.Services.AddSingleton(new MongoDBService(connectionString?? string.Empty, dbName?? string.Empty));
         builder.Services.AddScoped<IWorkflowSettingsRepository, WorkflowSettingsRepository>();
+
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+        });
+
         return builder;
     }
 }

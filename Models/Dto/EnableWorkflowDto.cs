@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace scannerFakeBackend.Models.Dto;
 
-public record EnableWorkflowDto (string Id, bool Enable);
+public record EnableWorkflowDto ([property: JsonPropertyName("id")] string Id, [property: JsonPropertyName("enable")] bool Enable);
